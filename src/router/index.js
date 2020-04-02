@@ -6,6 +6,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUi)
 
 import HelloWorld from '@/components/HelloWorld'
+import  main from "@/components/main/main"
 import index from "@/components/index"
 import firstPage from "@/components/first/firstPage"
 import secondPage from "@/components/second/secondPage"
@@ -15,8 +16,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'main',
+      component: main
     },{
       path: '/first',
       name: 'firstPage',
